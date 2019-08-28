@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TAB</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=width-device, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="icon" type="image/png" href="img/favicon.png">
+    <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Exo&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style> 
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-instagram {
+  background: #cb2027;
+  color: white;
+}
+</style>
+</head>
+<body>
+	<div class="container-fluid">
+		 <!--HEADING-->
+	     <h1 style="text-align: center;font-family: 'Lobster', cursive; font-size: 80px"> Welcome to Jumanji</h1>
+	</div>
+         <!-- NAVBAR STARTS HERE-->
+	<nav class="navbar navbar-expand-sm bg-primary navbar-dark sticky-top justify-content-center">
+	   <a class="navbar-brand" href="#">Home</a>
+	   <ul class="navbar-nav">
+	   	   <li class="nav-item">
+	   	   	  <a class="nav-link" href="#">How to play</a>
+	   	   </li>
+	   	   <li class="nav-item">
+	   	   	  <a class="nav-link" href="#">About us</a>
+	   	   </li>
+	   	   <li class="nav-item dropdown">
+	   	   	  <a class="nav-link dropdown-toggle" id="navbardrop" data-toggle="dropdown" href="#">Characters</a>
+                <!-- DROPDOWN NAMES-->
+	   	   	  <div class="dropdown-menu">
+	   	   	  	<a class="dropdown-item" href="#">Ruby</a>
+	   	   	  	<a class="dropdown-item" href="#">Rock</a>
+	   	   	  	<a class="dropdown-item" href="#">Shelly</a>
+	   	   	  	<a class="dropdown-item" href="#">Finbar</a>
+	   	   	  </div>
+	   	   </li>
+	   </ul>	
+	</nav> <!-- NAVBAR ENDS HERE-->
+
+	 <!-- SLIDE SHOW OF PICTURES-->
+
+	<div id="demo" class="carousel slide justify-content-center" data-ride="carousel">
+
+		<ul class="carousel-indicators">
+             <li data-target="#demo" data-slide-to="0" class="active"></li>
+             <li data-target="#demo" data-slide-to="1"></li>
+             <li data-target="#demo" data-slide-to="2"></li>
+             <li data-target="#demo" data-slide-to="3"></li>
+		</ul>
+         
+         <!-- SLIDESHOW PICS HERE-->
+		<div class="carousel-inner">
+			<div class="carousel-item active">
+				<img src="img/ruby.jpg" alt="Ruby" width="100%" height="500">
+			</div>
+
+			<div class="carousel-item">
+				<img src="img/rock.jpg" alt="Rock" width="100%" height="500">
+			</div>
+
+			<div class="carousel-item">
+				<img src="img/shelly.jpg" alt="Shelly" width="100%" height="500">
+			</div>
+
+			<div class="carousel-item">
+				<img src="img/finbar.jpg" alt="Finbar" width="100%" height="500">
+			</div>
+			</div>
+
+			<a class="carousel-control-prev" href="#demo" data-slide="prev"><span class="carousel-control-prev-icon"></span></a>
+			<a class="carousel-control-next" href="#demo" data-slide="next"><span class="carousel-control-next-icon"></span></a>
+
+		
+	</div>
+	<!-- SLIDESHOW ENDED-->
+
+	<!-- INFO ABOUT CHARACTERS-->
+	<hr>
+
+	<div class="container-fluid justify-content-center border border-info" style="font-family: 'Exo', sans-serif; background:#e1e8f2; padding: 20px; margin-left: 3px">
+		<div class="row">
+			<div class="col-sm-3" >
+				<h1 style="padding-top: 20px"> Dr. Bravestone</h1>
+				<article class="border border-primary" style="padding: 20px">
+					Within the world of "Jumanji", Bravestone is a renowned adventurer and archaeologist and is well known in the realm of "Jumanji", and across the seven continents for his amazing feats. After he saved Franklin "Mouse" Finbar's life from a warlord in Peru, he has never left Dr. Bravestone's side.
+
+                   After receiving a letter from the Field Guide Nigel Billingsley, he arrived in "Jumanji" with his companions to answer the call for aid to lift the curse.
+
+                  His symbol on the player select screen is a compass, reflecting his role as an archaeologist, explorer, and adventurer.
+
+                  <dl>
+
+                      <dt  class="text-danger">Weaknesses</dt>
+                      <dd>
+                      	None, but he can be killed.
+                      </dd>
+                  </dl>
+				</article>
+			</div>
+			<div class="col-sm-3" >
+				<h1 style="padding-top: 20px">Ruby</h1>
+				<article class="border border-success" style="padding: 20px">
+					Ruby Roundhouse is described as a killer of men. Her symbol on the player select screen is a karate fighter, reflecting her role as a fighter.
+                 <dl>
+                 <dt  class="text-success">Strengths</dt>
+                 <dt>Karate:<dt> 
+                 	<dd>She is an expert in karate.
+				 Tai'Chi: She is an expert in tai'chi.
+				</dd>
+				 <dt>Aikido:</dt>
+				 <dd> She is an expert in aikido.</dd>
+				 <dt>Dance Fighting:</dt>
+				 <dd> This ability is activated whenever the song, "Oh Baby I Love Your Way" plays.</dd>
+				 <dt  class="text-danger">Weaknesses</dt>
+				 <dt>Venom:</dt>
+				 <dd> Venom is instantly fatal to her. It takes up to 10 seconds before the venom kills her.</dd>
+				</dl>
+				</article>
+			</div>
+			<div class="col-sm-3" >
+				<h1 style="padding-top: 20px">Shelly</h1>
+				<article class="border border-warning" style="padding: 20px">
+					Shelly Obrian is described as a genius and code-breaker, and has qualifications in archeology and paleontology.
+
+                <dl>
+					<dt  class="text-success">Strengths</dt>
+					<dt>Cartography:</dt>
+					 <dd>He is an expert in the study of maps, making him the only character who is able to read the Map of "Jumanji".</dd>
+					<dt>Archaeology:</dt>
+					 <dd>He is an expert in the study of ancient human history.</dd>
+					<dt>Paleontology:</dt>
+					 <dd>He is an expert in the study of prehistoric life.</dd>
+					<dt  class="text-danger">Weaknesses</dt>
+					<dt>Endurance:</dt>
+					 <dd>Presumably referring to him having low stamina.</dd>
+				</dl>
+				</article>
+				
+			</div>
+			<div class="col-sm-3" >
+				<h1 style="padding-top: 20px">Finbar</h1>
+				<article class="border border-danger" style="padding: 20px">
+					Finbar is Dr. Smolder Bravestone's sidekick. He has never left Bravestone's side after Bravestone rescued him from the clutches of a warlord in the jungles of Peru.
+
+                    
+
+                    <dl>
+					<dt  class="text-success">Strengths</dt>
+					<dt>Zoology:</dt>
+					 <dd>He is an expert on animal behavior and biology.</dd> 
+					<dt>Weapons Valet:</dt>
+					 <dd>He carries a variety of weapons in his bag.</dd>
+					<dt  class="text-danger">Weaknesses</dt>
+					<dt>Cake:</dt>
+					 <dd>Consuming cake causes him to explode.</dd>
+					<dt>Speed:</dt>
+					 <dd>He is a slow runner so bravestone carries him.</dd>
+					</dl>
+				</article>
+			</div>
+			
+		</div>
+		
+	</div>
+
+	<!-- iNFO ENDED-->
+    
+    <!-- uSING FLEXBOX-->
+    <hr>
+    <div class="container-fluid">
+    	<h1 style="padding-top: 30px">Play our Other games</h1>
+    	<div class="row">
+    		<div class="col-sm-6"></div>
+    		<div class="col-sm-6">
+	<div class="d-flex flex-column mb-3">
+		<div class="p-2 bg-info">Zatura</div>
+		<div class="p-2 bg-warning">Golden Compass</div>
+		<div class="p-2 bg-success">Huntsmen</div>
+    </div>
+            </div>
+        </div>
+    </div>
+
+    <!--FOOTER  STARTS-->
+
+<footer class="page-footer bg-success">
+
+	<div class="container-fluid text-center">
+		<div class="row">
+
+			<div class="col-sm-6">
+				
+				<h5 class="text-uppercase">Address</h5>
+				<p>117, Above SBI, Opposite Raheja Arcade,, KHB Colony, 7th Block, Koramangala, Bengaluru, Karnataka 560095</p>
+				<!--iNSERTING MAP USING EMBED-->
+				<div id="map-container-google-1" class="z-depth-1-half map-container" style="height: 300px">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.569209114345!2d77.61175141415262!3d12.935386290879686!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae144e0c7d418f%3A0x48d008360cebcde4!2sStackroute!5e0!3m2!1sen!2sin!4v1566282686866!5m2!1sen!2sin" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+					<!--MAP INSERTED-->
+				</div>
+			</div>
+
+			<div class="col-sm-3">
+				<h5 class="glyphicon glyphicon-envelope"> Phone No</h5>
+				<ul class="list-unstyled">
+					<li>1535618479348</li>
+					<li>3563463489738</li>
+					<li>2354348823647</li>
+				</ul>
+				
+			</div>
+
+			<div class="col-sm-3">
+				<h5>Connect us on</h5>
+				<ul class="list-unstyled">
+					<li>
+						<a href="#" class="fa fa-facebook"></a>
+					</li>
+					<li>
+						<a href="#" class="fa fa-twitter"></a>
+					</li>
+					<li>
+						<a href="#" class="fa fa-instagram"></a>
+					</li>
+					
+				</ul>
+				
+			</div>
+			
+		</div>
+		
+	</div>
+	<div class="footer-copyright text-center" style="padding-top: 30px">2019 Copyright:
+		<br>
+		<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal" style="margin-bottom: 5px">
+			<p>IMDB rating</p>
+		</button>
+		<div class="modal" id="myModal">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h4 class="modal-title"> Storyline</h4>
+						<button type="button" class="close" data-dismiss="modal">&times;</button>
+					</div>
+
+					<div class="modal-body">
+						<p>
+							Storyline
+							In a brand new Jumanji adventure, four high school kids discover an old video game console and are drawn into the game's jungle setting, literally becoming the adult avatars they chose. What they discover is that you don't just play Jumanji - you must survive it. To beat the game and return to the real world, they'll have to go on the most dangerous adventure of their lives, discover what Alan Parrish left 20 years ago, and change the way they think about themselves - or they'll be stuck in the game forever, to be played by others without break. Written by Sony Pictures
+						</p>
+				    </div>
+				    <div class="modal-footer">
+				    	<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+				    </div>
+
+			</div>
+			
+		</div>
+		
+		</div>
+	</div>
+	
+</footer>
+
+
+
+
+</body>
+</html>
